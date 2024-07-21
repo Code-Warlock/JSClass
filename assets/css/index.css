@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container{
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(12, 50px);
+    gap:20px; */
+
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h1{
+    background-color: green;
+    flex: 1 1 10%;
+    height: 50px;
+}
