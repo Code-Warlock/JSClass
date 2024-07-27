@@ -14,7 +14,7 @@
 
 
 // =========================================================
-// for loops
+// for loops(for, for-of, for-in, .forEach)
 // while loops
 
 // Normal(Default for loop)
