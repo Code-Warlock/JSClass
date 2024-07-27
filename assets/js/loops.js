@@ -42,7 +42,7 @@ let user = "Qazeem Adeboye";
 //     for(let j = 0; j<= letter.length - 1; j++){
 //         console.log(letter.charAt(j)); // a
 //         for(let k = 0; k<=letter2.length - 1; k++){
-//             console.log(letter2.charAt(k)); // pqrst
+//             console.log(letter2.charAt(k)); //
 //         }
 //     }
 // }
