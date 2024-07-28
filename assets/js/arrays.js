@@ -20,4 +20,5 @@
 
 // arr += "Hello"
 
-console.log(typeof arr)
+// console.log(typeof arr);
+

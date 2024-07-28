@@ -6,9 +6,21 @@ let things = [1,2,3,true,false, "HELLO"];
 //     console.log(things[p]);
 // }
 
-for(let thing of things){
-    if(thing == false){
-        continue;
-    }
-    console.log(thing);
-}
+// for(let thing of things){
+//     if(thing == false){
+//         continue;
+//     }
+//     console.log(thing);
+// }
+
+// while(condition){
+//     statement
+// }
+
+let cont = confirm("Do you want to continue");
+
+
+
+// while(){
+    
+// }
