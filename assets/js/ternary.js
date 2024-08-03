@@ -15,8 +15,8 @@
 let limit = parseInt(prompt("Enter the total amount of numbers : ").trim());
 let input = prompt("Enter values(separate by space)").trim();
 
-input = input.split(" ");
-let numbers= [];
+input = input.split(" "); //  ["1". "2" , "3"] 
+let numbers= [];  // [1,2,3]
 
 while(input.length != limit){
     limit = prompt("Enter predefined amount of numbers\nEnter the total amount of numbers : ").trim();
@@ -28,16 +28,20 @@ for(let num of input){
 }
 
 numbers.sort();
+
 let max = 0;
 let secondMax = 0;
+
 for(let i = 0; i<= numbers.length; i++){
     let start = numbers[i];
     if(start > max){
         max = start;
     }
 }
+
 let index_max = numbers.indexOf(max);
 numbers = numbers.splice(index_max-1, 1);
+
 for(let i = 0; i<= numbers.length; i++){
     let start = numbers[i];
     if(start > secondMax){
